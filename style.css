@@ -21,7 +21,7 @@ body {
 .component {
   background-color: var(--white);
   flex-direction: column;
-  padding: 20px;
+  padding: 12px;
   border-radius: 5%;
   max-width: 17rem;
 }
