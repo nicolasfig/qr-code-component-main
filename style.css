@@ -1,0 +1,44 @@
+/*Colors*/
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --outfit: "Outfit", sans-serif;
+  --f-regular: 400;
+  --f-bold: 700;
+}
+
+body {
+  background-color: var(--light-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.component {
+  background-color: var(--white);
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5%;
+  max-width: 17rem;
+}
+img {
+  object-fit: contain;
+  border-radius: 5%;
+  width: 100%;
+}
+h2 {
+  color: var(--dark-blue);
+  font-family: var(--outfit);
+  font-weight: var(--f-bold);
+}
+
+p {
+  color: var(--grayish-blue);
+  font-size: 15px;
+  font-weight: var(--f-regular);
+  font-family: var(--outfit);
+}
